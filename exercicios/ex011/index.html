@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente o tamanho e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto1-.png" type="image/png"> <!--Quando a página chega em 750pixels abre a imagem de tamanho pequeno ((Colocamos o tamanho da imagem média, em srcset colocamos a imagem pequena)-->
+        <source media="(max-width:1050px )" srcset="imagens/foto2-.png" type="image/png"> <!--Quando a página chega em 1050pixels abre a imagem de tamanho medio (Colocamos o tamanho da imagem grande, em srcset colocamos a imagem média)-->
+        <img src="imagens/foto3-.png" alt="Imagem flexível"> <!--Começamos com a imagem de tamanho grande (do maior para o menor)-->
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p> <!--Jeito mais simples-->
+    <audio src="midia/PajamaParty-JeremyKorpas.mp3" controls autoplay></audio>
+    <p>
+        <audio preload="metadata" controls loop> <!--Outra forma de colocar áudio no site-->
+            <source src="midia/TheCreepyClown-JeremyKorpas.mp3" type="audio/mpeg">
+            <source src="midia/TheCreepyClown-JeremyKorpas.ogg" type="audio/ogg"> <!--Exemplo, tipos de midias-->
+            <source src="midia/TheCreepyClown-JeremyKorpas.way" type="audio/wav"> <!--Exemplo, tipos de midias-->
+            <p>Infelizmente seu navegador não consegue reproduzir esse áudio. <a href="midia/TheCreepyClown-JeremyKorpas.mp3">Clique aqui para baixar o aquivo MP3</a></p>
+            
+        </audio>
+    </p>
+
+    
+</body>
+</html>

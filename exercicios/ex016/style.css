@@ -1,0 +1,32 @@
+@charset "UTF-8"; /* regra do CSS */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #FFF1DD, #FFE2E8); /* colocar as cores em degrade */
+}
+
+main{
+    background-color: white; /* Cor do fundo */
+    border-radius: 10px; /* borda redonda */
+    box-shadow: 5px 5px 15px #FAB4BF; /* sombra */
+    width: 600px; /* largura */
+    padding: 10px; /* diminuir ou aumentar a borda */
+    margin: auto; /* margem */
+}
+
+h1{
+    color: #FAB4BF;
+    text-align: center; /* colocar a frase no meio da tela */
+    text-shadow: 1px 1px 2px #c38e96a3; /* sombra no texto */
+}
+
+h2{
+    color: #856e68;
+}
+
+p{
+    text-align: justify; /* ajustar o texto (colocar alinhado) */
+}
