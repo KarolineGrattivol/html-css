@@ -22,7 +22,7 @@ header > h1{
     text-align: center;
 }
 
-#burguer{
+#burguer{ /* configuração do menu hamburguinho */
     background-color: rgba(64, 6, 118, 0.518);
     color:white;
     display: block;
@@ -31,7 +31,7 @@ header > h1{
     cursor: pointer;
 }
 
-span#burguer:hover{
+span#burguer:hover{ /* configuração do menu hamburguinho */
     background-color: white;
     color: black;
 }
